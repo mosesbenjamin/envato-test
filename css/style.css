@@ -1,67 +1,131 @@
-body {
-	background-color: #FFF;
-	margin: 0;
-	padding: 0;
-}
 
+/*Desktop screen styling */
 
 @media (min-width: 575px){
+
+	body {
+		background-color: #FFF;
+		margin: 0;
+		padding: 0;
+		font-size: 16px;
+	}
+
 	.p-style {
 		padding-left: 1em;
 		font-family: "Montserrat";
 		font-style: normal;
 		font-weight: normal;
-		font-size: 22px;
+		font-size: 14px;
 		line-height: 40px;
 		color: #6C6C6C;
 
 
 	}
 
+	.text-size{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		font-family: "Montserrat";
+	}	
+
+	.icon-style{
+		font-size: 16px;
+		color: #EBC154;
+	}
+
+	.button {
+		width: 220px;
+		height: 58px;
+		background: #EBC154;
+		box-shadow: 0px 0px 15px #C4C4C4;
+		color: #FFF;
+		font-size: 24px;
+		font-family: "Montserrat";
+	}
+
 	#heading {
 		font-family: "Montserrat";
 		font-style: normal;
 		font-weight: bold;
-		font-size: 40px;
-		padding: 80px 0 30px 20px;
+		font-size: 48px;
+		padding: 80px 0 10px 12px;
 		line-height: 14px;
 		display: flex;
 		align-items: center;
 		color: #000000;
 
 	}
-	.text-size{
-		font-style: normal;
-		font-weight: normal;
-		font-size: 2em;
-		font-family: "Montserrat";
-	}	
 
-	.icon-style{
-		font-size: 2em;
-		color: #EBC154;
+	#hr {
+	  height: 10px;
+	  background: #EBC154;;
+	  width: 130px;
+	  margin:  0 0 5px 12px;
+
 	}
 
 }
 
+/* Mobile screen styling */
+
 @media (max-width: 576px){
+
+	body {
+		background-color: #FFF;
+		margin: 0;
+		padding: 0;
+		font-size: 14px;
+	}
+
+
+	.button {
+		background: #EBC154;
+		box-shadow: 0px 0px 15px #C4C4C4;
+		color: #FFF;
+		font-size: 14px;
+		font-family: "Montserrat";
+
+	}
+
 	.p-style {
-		font-size: 16px;
-		line-height: 1.2em;
+		padding-left: 1em;
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 40px;
+		color: #6C6C6C;
 	}
 	#heading{
-		font-size: 16px;
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		padding: 80px 0 1px 12px;
+		line-height: 14px;
+		display: flex;
+		align-items: center;
+		color: #000000;	
 	}
 	
 	.text-size{
 		font-style: normal;
 		font-weight: normal;
-		font-size: 1em;
+		font-size: 14px;
 		font-family: "Montserrat";
 	}
 
 	.icon-style{
 		color: #EBC154;
+	}
+
+	#hr {
+	  height: 5px;
+	  background: #EBC154;;
+	  width: 65px;
+	  margin:  0 0 5px 12px;
+
 	}
 
 }
