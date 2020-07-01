@@ -14,22 +14,110 @@
     <!-- Website title-->
     <title>Cosy-Lines</title>
     <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="" />
+    <link rel="apple-touch-icon-precomposed" href=""/>
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- CSS links-->
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
-    
-    <div class="container-fluid">
+
+    <!-- HEADER SECTION STARTS HERE -->
+    <header>
+
+      <!-- NAVIGATION STARTS HERE -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-4">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">
+            <img src="./images/discover_travel_logo-2.png" alt="discover_travel_logo" width="200px">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsiveNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="responsiveNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active mr-4">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#" class="nav-link custom-link">Tours</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#" class="nav-link">Hotels</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#" class="nav-link">Contact Us</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION STARTS HERE -->
+    <section id="hero-section">
+      <!-- CAROUSEL WRAPPER-->
+        <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+          <!-- SLIDES -->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item custom-carousel-img">
+              <div class="carousel-overlay first-slide"></div>
+              <div class="carousel-caption">
+                <h1 class="text-white text-center">Explore the <br /> <span class="bold-heading font-weight-bold">World</span>
+              </div>
+            </div>
+            <div class="carousel-item custom-carousel-img active">
+              <div class="carousel-overlay second-slide"></div>
+              <div class="carousel-caption">
+                <h1 class="text-white text-center">Discover <br /> <span class="bold-heading font-weight-bold">Africa</span>
+              </div>
+            </div>
+            <div class="carousel-item custom-carousel-img">
+              <div class="carousel-overlay third-slide"></div>
+              <div class="carousel-caption">
+                <h1 class="text-white text-center">Let <br /> <span class="bold-heading font-weight-bold">Loose</span>
+              </div>
+            </div>
+          </div>
+          <!-- THUMBNAILS -->
+          <ol class="carousel-indicators large-circle">
+            <li data-target="#carousel-thumb" data-slide-to="0">
+              <img class="d-block" src="./images/home-sliders/World.jpg" alt="Africa">
+            </li>
+            <li data-target="#carousel-thumb" data-slide-to="1">
+              <img class="d-block" src="./images/home-sliders/Africa.jpg" alt="Africa">
+            </li>
+            <li data-target="#carousel-thumb" data-slide-to="2">
+              <img class="d-block" src="./images/home-sliders/Desert.jpg" alt="Africa">
+            </li>
+          </ol>
+        </div>
+        <div class="scroll-button text-center">
+          <a href="#top-cities"><i class="fas fa-2x fa-angle-down"></i></a>
+        </div>
+    </section>
+
+    <section>
+       <div class="container-fluid">
         <div class="row px-3">
             <div class="col-sm-6 col-md-6 col-lg-6">
                 <h1 id="heading">Get In Touch</h1>
@@ -66,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-6 mt-5">
+            <div class="col-sm-6 col-md-6 mt-1">
                 <div class="embed-responsive embed-responsive-16by9 mt-3">
                   <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d507402.28716431453!2d3.494686149012286!3d6.511511398466503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s24%20avenue%20street%20lekki%20lagos%20state!5e0!3m2!1sen!2sng!4v1593297276240!5m2!1sen!2sng" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" allowfullscreen></iframe>
                 </div>
@@ -82,8 +170,71 @@
             </div>
         </div>
     </div>
+    </section>
+
+
+    <footer class="text-center text-white">
+      <div class="container-fluid">
+        <h3 class="font-weight-bold">Subscribe To Our Newsletter</h3>
+        <div class="row justify-content-center mt-4">
+          <div class="col-7 col-md-6 col-lg-4 mr-0 pr-0">
+            <input type="email" class="form-control form-control-lg" placeholder="Email" aria-placeholder="Email" name="name">
+          </div>
+          <div class="col-5 col-md-4 col-lg-2">
+            <button class="btn btn-lg footer-btn">SUBSCRIBE</button>
+          </div>
+        </div>
+        <div class="footer-navigation mx-auto">
+          <div class="d-flex align-items-center">
+            <a href="#" class="footer-logo">
+              <img src="./images/discover_travel_logo-2.png"  class="mb-3" alt="Logo" width="200px">
+            </a>
+            <ul class="footer-navs ml-auto">
+              <li class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold">Home</a>
+              </li>
+              <li  class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold">FAQ</a>
+              </li>
+              <li class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold">Tours</a>
+              </li>
+              <li class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold">Hotels</a>
+              </li>
+              <li class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold">About Us</a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#" class="footer-nav-link font-weight-bold">Contact Us</a>
+              </li>
+            </ul>
+          </div>  
+          <hr>
+        </div>
+        <div class="social-icons d-flex justify-content-center mt-5">
+          <div class="mr-4 d-flex justify-content-center align-items-center">
+            <a href="#" class="social-links"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <div class="mr-4 d-flex justify-content-center align-items-center">
+            <a href="#" class="social-links"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <a href="#" class="social-links"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <p class="footer-text mx-auto text-white w-50 mt-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p class="copyright-text text-center text-white mt-4">2020 Discover Travel. All rights reserved.</p>
+      </div>
+    </footer>
+    
+
     <!-- All javascript at the bottom of the page for fast page load -->
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/custom.js"></script>
   </body>
 </html>
