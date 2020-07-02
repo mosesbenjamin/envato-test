@@ -82,9 +82,21 @@ nav {
      margin-bottom: 100px;
     }
 
+    .header {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 88px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        color: #FFFFFF;
+
+    }
     .p-style {
         padding-left: 1em;
-        font-family: "Montserrat";
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -98,7 +110,6 @@ nav {
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
-        font-family: "Montserrat";
     }   
 
     .icon-style{
@@ -113,11 +124,9 @@ nav {
         box-shadow: 0px 0px 15px #C4C4C4;
         color: #FFF;
         font-size: 24px;
-        font-family: "Montserrat";
     }
 
     #heading {
-        font-family: "Montserrat";
         font-style: normal;
         font-weight: bold;
         font-size: 40px;
@@ -149,8 +158,21 @@ nav {
      height: 80vh;
      margin-bottom: 80px;
 }
+    .header {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 70px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        color: #FFFFFF;
+
+    }
+
     #heading{
-        font-family: "Montserrat";
         font-style: normal;
         font-weight: bold;
         font-size: 30px;
@@ -181,6 +203,20 @@ nav {
         font-size: 14px;
     }
 
+    .header {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 50px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+        color: #FFFFFF;
+
+    }
+
     .banner {
      background-image: url('../images/background.png');
      background-size: cover;
@@ -194,13 +230,11 @@ nav {
         box-shadow: 0px 0px 15px #C4C4C4;
         color: #FFF;
         font-size: 14px;
-        font-family: "Montserrat";
 
     }
 
     .p-style {
         padding-left: 1em;
-        font-family: "Montserrat";
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -208,7 +242,6 @@ nav {
         color: #6C6C6C;
     }
     #heading{
-        font-family: "Montserrat";
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -223,7 +256,6 @@ nav {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
-        font-family: "Montserrat";
     }
 
     .icon-style{
